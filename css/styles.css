@@ -1,0 +1,269 @@
+html {
+  scroll-behavior: smooth;
+margin: 0px;
+height: 100%;
+width: 100%;
+}
+
+body {
+  font-family: 'Montserrat',
+    sans-serif;
+
+}
+
+h3 {
+
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: 'Montserrat',
+    sans-serif;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+h1 {
+  font-family: 'Montserrat',
+    sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 4rem;
+
+}
+
+
+#title {
+  background-color: #ff4c68;
+}
+
+
+.container-fluid {
+  padding: 3% 15%;
+  padding-bottom: 7%;
+
+}
+
+/* NAV BAR */
+.navbar-brand {
+  font-family: 'Ubuntu',
+    sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 20px 0 0;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.main-img {
+  width: 60%;
+  transform: rotate(20deg);
+  margin-left: 4rem;
+  position: absolute;
+}
+
+/* MEDIA QUERY TO MAKE THE MAIN IMAGE RESPONSIVE */
+@media (max-width:992px) {
+  .main-img {
+    position: static;
+    transform: rotate(0deg);
+    margin-left: 0;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* FEATURES ROW */
+#features {
+  background-color: white;
+  padding: 7% 9%;
+  font-family: 'Montserrat',
+    sans-serif;
+  position: relative;
+}
+
+.f-icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.f-col {
+  text-align: center;
+  padding: 5%;
+}
+
+
+.f-col p {
+  line-height: 2;
+  color: #8f8f8f;
+
+}
+
+.row i:hover {
+  color: #ff4c68;
+}
+
+
+/* TESTIMONIAL */
+#testimonials {
+  /*   padding: 7% 9%;*/
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 9%;
+
+}
+
+
+/* PRICING section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#pricing p {
+  line-height: 2;
+}
+
+.card-item {
+  margin-bottom: 20px;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+
+/* CALL TO ACTION SECTION */
+
+#cta {
+  text-align: center;
+  padding: 80px 80px 30px 80px;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  font-family: 'Montseratt',
+    sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 1.5;
+}
+
+
+/* FOOTER */
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+.footer-icons {
+  padding: 0 10px 30px 10px;
+}
+
+.footer-p {
+  color: #8f8f8f;
+  margin: 0;
+}
+
+
+/* DOWNLOAD PAGE */
+#download-page {
+  background-color: #ff4c68;
+}
+
+#construction {
+  margin-top: 2rem;
+  text-align: center;
+
+}
+
+#contruction-heading {
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.tool-icon {
+  font-size: 6rem;
+}
+
+.back-btn {
+  font-family: 'Montseratt',
+    sans-serif;
+  margin: 25px 0 0 0;
+  font-size: 2rem;
+  padding: 8px;
+
+}
+
+.back-icon {
+  font-size: 1.5rem;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+/* MEDIA QUERY BREAKPOINT FOR SMALL DEVICES */
+@media (max-width:417px) {
+
+  #title .title-container {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  #pricing {
+    padding: 20px;
+  }
+
+  #cta {
+    padding: 15px 10px;
+  }
+}
